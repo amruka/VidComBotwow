@@ -1,5 +1,4 @@
 aiohttp
 Pillow
 psutil
-git+git://github.com/AlbertEinsteinTG/pyrogram@asyncio-dev#pyrogram
 tgcrypto
