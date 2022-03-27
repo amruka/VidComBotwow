@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # (c) Shrimadhav U K
-
+import Pyrogram
 
 import os
 
@@ -17,11 +17,6 @@ from bot.plugins.new_join_fn import (
     help_message_f	
 )
 
-from pyrogram import (
-  Client, 
-  MessageHandler,
-  CallbackQueryHandler
-)
 
 from bot.plugins.incoming_message_fn import (
     incoming_start_message_f,
