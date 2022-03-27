@@ -2,3 +2,4 @@ aiohttp
 Pillow
 psutil
 tgcrypto
+pyrogram==1.0.1
